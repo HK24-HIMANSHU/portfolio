@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+body {
+  background: #282c35;
+  color: #f2f2f2;
+  font-family: 'Inter';
+}
+nav {
+  /* background-color: aqua; */
+  position: relative;
+  margin: 12px auto 80px;
+  padding-bottom: 20px;
+  display: flex;
+  font-size: 1.3rem;
+  font-weight: 800;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-bottom: 0.8px solid #ddd;
+  max-width: 80%;
+}
+nav a {
+  padding: 20px;
+  text-decoration: none;
+  color: #f2f2f2;
+}
+.smedia {
+  margin-bottom: -10px;
+  display: flex;
+  justify-content: space-between;
+  width: 180px;
+}
+.ghub,
+.lnkin,
+.behance {
+  cursor: pointer;
+  transition: 0.3s ease;
+  border-radius: 50px;
+  padding: 5px;
+}
+.ghub:hover,
+.lnkin:hover,
+.behance:hover {
+  background-color: #212d45;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.about {
+  margin: 0 auto;
+  width: 70%;
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.twe {
+  margin-left: 20px;
+  /* background-color: aqua; */
+}
+#blogButton {
+  text-decoration: none;
+  color: #f2f2f2;
+  font-weight: 700;
+  padding: 15px 25px 15px 25px;
+  background-image: linear-gradient(to right, #ec008c, #fc6767);
+  border-radius: 5px;
+}
+#blogButton:hover {
+  background-image: linear-gradient(to left, #ec008c, #fc6767);
+}
+.blogbtn {
+  position: absolute;
+  transition: 0.3s ease-in-out 0s;
+}
+.blogbtn:hover {
+  transform: scale(1.1);
+}
+.mysp {
+  width: 70%;
+  /* background-color: aqua; */
+  margin: 0 auto;
+}
+.abtme {
+  width: 70%;
+  margin: 0 auto;
+}
+footer {
+  width: 70%;
+  margin: 0 auto;
+  display: block;
+  text-align: left;
+  padding: 30px 0;
+  margin-top: 40px;
+  border-top: 1px solid #eaeaea;
+}
+.callAndEmail {
+  padding: 30px 0;
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.callAndEmail p:hover {
+  color: #bcfd4c;
+  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+.email {
+  padding: 0 0 0 80px;
+}
+.smedia2 {
+  display: flex;
+  justify-content: flex-end;
+}
+.smedia1 {
+  display: flex;
+  justify-content: space-between;
+  width: 180px;
+}
+p:hover,
+h1:hover {
+  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+.sp {
+  display: flex;
+  justify-content: space-between;
+}
+.uiux {
+  width: 27%;
+  padding: 25px;
+  text-align: center;
+  background-color: #444857;
+  display: inline-block;
+  border-radius: 5px;
+  transition: 0.2s ease-in;
+}
+.uiux:hover {
+  transform: scale(1.05);
+  box-shadow: rgb(34, 34, 34) 0px 5px 15px;
+  border: double 4px transparent;
+  border-radius: 5px;
+  border: 3px solid transparent;
+  background-image: linear-gradient(to right, #b4056e, #da2c2c);
+}
+.wraper {
+  display: flex;
+  justify-content: space-around;
+}
+.proj1 {
+  overflow: hidden;
+  background-color: #444857;
+  display: inline-block;
+  text-align: center;
+  width: 27%;
+  border-radius: 5px;
+  transition: 0.2s ease-in;
+}
+.proj1sub {
+  padding: 0 25px 20px 25px;
+}
+#uibutton {
+  /* position: absolute; */
+  text-decoration: none;
+  color: #f2f2f2;
+  font-weight: 700;
+  font-size: 12px;
+  padding: 7px 30px 7px 30px;
+  background-image: linear-gradient(to right, #ec008c, #fc6767);
+  border-radius: 5px;
+}
+.btn {
+  transition: 0.1s ease-in;
+  display: inline-block;
+}
+.btn:hover {
+  background-image: linear-gradient(to left, #ec008c, #fc6767);
+  transform: scale(1.1);
+}
+.mainbr {
+  width: 70%;
+  margin: 0 auto;
+}
+.webdev {
+  display: flex;
+  justify-content: space-around;
+}
+.wrapbtn {
+  display: flex;
+  justify-content: space-around;
+}
+.proj2 {
+  overflow: hidden;
+  background-color: #444857;
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  border-radius: 5px;
+  transition: 0.2s ease-in;
+}
+.proj1:hover,
+.proj2:hover {
+  transform: scale(1.1);
+  box-shadow: rgb(34, 34, 34) 0px 5px 15px;
+}
